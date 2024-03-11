@@ -1,0 +1,17 @@
+body{
+    background-image: url(../assets/fondoremovible.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1000px) {
+    body{
+        background-image: url(../assets/fondoremovible2.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
